@@ -37,7 +37,7 @@ class Footer extends HTMLElement{
 						<div class="fn-mid">
 							<p>COMMUNITIES</p>
 							<div>
-								<a href="">Artists İçin</a>
+								<a href="">For Artists</a>
 							</div>
 							<div>
 								<a href="">Developers</a>
