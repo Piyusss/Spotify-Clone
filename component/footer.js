@@ -23,47 +23,47 @@ class Footer extends HTMLElement{
 					</div>
 					<div class="footer-nav">
 						<div class="fn-left">
-							<p>ŞİRKET</p>
+							<p>COMPANY</p>
 							<div>
-								<a href="">Hakkında</a>
+								<a href="">About</a>
 							</div>
 							<div>
-								<a href="">İşler</a>
+								<a href="">Works</a>
 							</div>
 							<div>
 								<a href="">For the Record</a>
 							</div>
 						</div>
 						<div class="fn-mid">
-							<p>TOPLULUKLAR</p>
+							<p>COMMUNITIES</p>
 							<div>
-								<a href="">Sanatçılar İçin</a>
+								<a href="">Artists İçin</a>
 							</div>
 							<div>
-								<a href="">Geliştiriciler</a>
+								<a href="">Developers</a>
 							</div>
 							<div>
-								<a href="">Reklam</a>
+								<a href="">Advertising</a>
 							</div>
 							<div>
-								<a href="">Yatırımcılar</a>
+								<a href="">Investors</a>
 							</div>
 							<div>
-								<a href="">Satıcılar</a>
+								<a href="">Sellers</a>
 							</div>
 						</div>
 						<div class="fn-right">
-							<p>YARARLI BAĞLANTILAR</p>
+							<p>USEFUL LINKS</p>
 							<div>
-								<a href="./help.html">Destek</a>
+								<a href="./help.html">Support</a>
 							</div>
 							<div>
-								<a href="">Web Çalar</a>
+								<a href="">Web Player</a>
 							</div>
 							<div>
 								<a href=""
-									>Ücretsiz Mobil <br />
-									Uygulama</a
+									>Free Mobile <br />
+									Application</a
 								>
 							</div>
 						</div>
@@ -83,29 +83,29 @@ class Footer extends HTMLElement{
 					</div>
 					<div class="tr">
 						<a href="" class="">
-							Türkiye
+							India
 							<img src="./assets/tr.svg" alt="" class="" />
 						</a>
 					</div>
 					<div class="footer_bot">
 						<ul class="">
 							<li class="">
-								<a href="" class="">Yasal</a>
+								<a href="" class="">Legal</a>
 							</li>
 							<li class="">
-								<a href="" class="">Gizlilik Merkezi</a>
+								<a href="" class="">Privacy Center</a>
 							</li>
 							<li class="">
-								<a href="" class="">Gizlilik Politikası</a>
+								<a href="" class="">Privacy Policy</a>
 							</li>
 							<li class="">
 								<a href="" class="">Cookies</a>
 							</li>
 							<li class="">
-								<a href="" class="">Reklamlar Hakkında</a>
+								<a href="" class="">About Ads</a>
 							</li>
 						</ul>
-						<span> © 2021 Spotify AB </span>
+						<span> © 2024 Spotify AB </span>
 					</div>
 				</div>
 			</div>
