@@ -1,4 +1,4 @@
-const template = document.createElement('template');
+const template = document.createElement('template'); 
 template.innerHTML = `
   <style>
     .why-card {
