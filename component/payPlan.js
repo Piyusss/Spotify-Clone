@@ -170,8 +170,8 @@ plantemplate.innerHTML = `
                 <p class="f"></p>
             </li>
         </ul>   
-        <a class="black_btn" href="">KULLANMAYA BAŞLA</a>
-        <p><small><a href="">*Şartlar ve koşullar</a> geçerlidir.</small></p>
+        <a class="black_btn" href="">START USING</a>
+        <p><small><a href="">*Terms and conditions</a> valid.</small></p>
     </div>
 `;
 
@@ -207,7 +207,6 @@ class payPlan extends HTMLElement {
             }
         }
     }
-    //Ne yaptığımdan tam olarak emin değilim ama oldu.
   }
 }
 
