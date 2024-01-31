@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/main.css" />
+		<link rel="stylesheet" href="./css/fonts.css" />
+		<link rel="stylesheet" href="./css/animation.css">
+		<link rel="stylesheet" href="./css/responsive.css">
+		<title>Destek - Spotify</title>
+		<link rel="icon" href="https://www.scdn.co/i/_global/favicon.png" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+		<style>
+			header {
+				background-color: black;
+				position: relative;
+			}
+		</style>
+	</head>
+	<body>
+		<!--Header-->
+		<custom-header></custom-header>
+		<!--Header-->
+
+		<!--Search-->
+		<div class="Search">
+			<div class="container">
+				<div class="search-box">
+					<h1 class="title-1">Sana nasıl yardımcı <br> olabiliriz?</h1>
+					<div class="searchInputBox">
+						<div class="seacrhIcon">
+							<svg xmlns="http://www.w3.org/2000/svg" role="img" focusable="false" height="24" width="24" viewBox="0 0 24 24" class="" aria-label="Arama icon">
+								<line x1="15.54" y1="15.54" x2="20.41" y2="20.41" stroke="#181818"/>
+								<circle cx="10.5" cy="10.5" r="7" fill="none" stroke="#181818"/>
+							</svg>
+						</div>
+						<input type="text" class="search-input" aria-label="Arama" placeholder="Arama" autocomplete="off" value="">
+					</div>
+				</div>
+				<div class="top-solution">
+					<div class="top-solution-inner">
+						<h3>HESAP YARDIMI</h3>
+						<a href="">Oturum açma bilgilerini hatırlamıyorum</a>
+					</div>
+					<div class="top-solution-inner">
+						<h3>ÜYELİK SEÇENEKLERİ</h3>
+						<a href="">Aile planı başlat veya plana <br> katıl</a>
+					</div>
+					<div class="top-solution-inner">
+						<h3>HESAP YARDIMI</h3>
+						<a href="">Parolayı sıfırlayamıyorum</a>
+					</div>
+					<div class="top-solution-inner">
+						<h3>GİZLİLİK VE GÜVENLİK</h3>
+						<a href="">Bu Spotify e-postası gerçek <br> mi?</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Search-->
+
+		<!--Links-->
+		<div class="Help-links">
+			<div class="container">
+				<div class="links_boxs">
+					<div class="link_box">
+						<h3 class="title-1 collapsible">Hesap ve Ödeme</h3>
+						<span>
+							<a href="">Hesap Yardımı</a>
+							<a href="">Ödeme Yardımı</a>
+							<a href="">Üyelik Seçenekleri</a>
+							<a href="">Aile için Premium</a>
+							<a href="">Premium Duo</a>
+							<a href="">Öğrenci için Premium</a>
+							<a href="">Gizlilik ve Güvenlik</a>
+							<a href="">Çevrimiçi anlaşmazlık çözümü</a>
+						</span>
+					</div>
+					<div class="link_box">
+						<h3 class="title-1 collapsible">Spotify'ı Kullanma</h3>
+						<span>
+							<a href="">Başlamak</a>
+							<a href="">Çalma Listeleri</a>
+							<a href="">Özellikler</a>
+							<a href="">Sistem ve Ayar Bilgileri</a>
+							<a href="">Sorun Giderme</a>
+						</span>
+					</div>
+					<div class="link_box">
+						<h3 class="title-1 collapsible">Heryerde Dinle</h3>
+						<span>
+							<a href="">Hoparlörler</a>
+							<a href="">TV'ler</a>
+							<a href="">Arabalar</a>
+							<a href="">Oyunlar</a>
+							<a href="">Akıllı saatler</a>
+							<a href="">Akıllı Ekranlar</a>
+							<a href="">Sesli asistanlar</a>
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Links-->
+
+		<!--Visit Community-->
+		<div class="visitCommunity">
+			<div class="container">
+				<h1 class="title-1">Toplulugu Ziyaret Et</h1>
+				<p>Soruların mı var? Dünya çapında uzman hayranlardan oluşan Topluluğumuzda sorularının yanıtlarını bul!</p>
+				<a class="black_btn" href="#">Yanıtları Bul</a>
+			</div>
+		</div>
+		<!--Visit Community-->
+
+		<!--Footer-->
+		<custom-footer></custom-footer>
+		<!--Footer-->
+
+		<div id="opacity" class="opacity"></div>
+		<script src="./component/header.js"></script>
+		<script src="./component/footer.js"></script>
+		<script src="./js/main.js"></script>
+		<script>
+			var coll = document.getElementsByClassName("collapsible");
+			var i;
+			
+			for (i = 0; i < coll.length; i++) {
+			  coll[i].addEventListener("click", function() {
+				this.classList.toggle("active");
+				var content = this.nextElementSibling;
+				if (content.style.maxHeight){
+				  content.style.maxHeight = null;
+				} else {
+				  content.style.maxHeight = content.scrollHeight + "px";
+				} 
+			  });
+			}
+		</script>
+	</body>
+</html>
