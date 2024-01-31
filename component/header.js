@@ -27,10 +27,10 @@ class Header extends HTMLElement{
 								<a class="navigation-link" href="./premium.html">Premium</a>
 							</li>
 							<li>
-								<a class="navigation-link" href="./help.html">Destek</a>
+								<a class="navigation-link" href="./help.html">Support</a>
 							</li>
 							<li>
-								<a class="navigation-link" href="./download.html">İndir</a>
+								<a class="navigation-link" href="./download.html">Download</a>
 							</li>
 							<li class="vertical_separator"></li>
 							<li>
@@ -51,10 +51,10 @@ class Header extends HTMLElement{
 								<div id="profileMenu" class="profileMenu">
 									<ul class="">
 										<li class="">
-											<a class="" href="./account.html">Hesap</a> 
+											<a class="" href="./account.html">Account</a> 
 										</li>
 										<li class="svelte-11h1c9">
-											<a class="faded" href="./index.html">Oturumu kapat</a> 
+											<a class="faded" href="./index.html">Sign out</a> 
 										</li>
 									</ul>
 								</div>
@@ -83,18 +83,18 @@ class Header extends HTMLElement{
 							<a class="sidenav-link" href="./premium.html">Premium</a>
 						</li>
 						<li>
-							<a class="sidenav-link" href="./help.html">Destek</a>
+							<a class="sidenav-link" href="./help.html">Support</a>
 						</li>
 						<li>
-							<a class="sidenav-link" href="./download.html">İndir</a>
+							<a class="sidenav-link" href="./download.html">Download</a>
 						</li>
 						<li class="h_separator"></li>
 						<li>
-							<a class="sidenav-link light" href="./account.html">Hesap</a>
+							<a class="sidenav-link light" href="./account.html">Account</a>
 						</li>
 						<li>
 							<a class="sidenav-link light son" href="./index.html"
-								>Oturumu kapat</a
+								>Sign out</a
 							>
 						</li>
 					</ul>
